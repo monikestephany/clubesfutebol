@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Itau.Case.ClubesFutebol.Core\Itau.Case.ClubesFutebol.Core.csproj" />
+    <ProjectReference Include="..\Itau.Case.ClubesFutebol.Data\Itau.Case.ClubesFutebol.Data.csproj" />
+    <ProjectReference Include="..\Itau.Case.ClubesFutebol.Infrastructure\Itau.Case.ClubesFutebol.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
